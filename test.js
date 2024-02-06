@@ -109,7 +109,7 @@ function InventaireON(items, fastItems, crMenu, image) {
         $("#drop");
         var i;
         for (i = 1; i < 6; i++) {
-            $("#InventaireJFastItems").append('<div class="slotFast"><div id="SlotsFAST-' + i + '" class="item" style = "background-image: url(\'https://cdn.discordapp.com/attachments/1182066478741205082/1204414452250841108/image_2023-07-24_181738854-removebg-preview.png\')">' + '<div class="keybind">' + i + '</div><div class="item-count"></div> <div class="item-name"></div> </div ><div class="item-name-bg"></div></div>');
+            $("#InventaireJFastItems").append('<div class="slotFast"><div id="SlotsFAST-' + i + '" class="item" style = "background-image: url(\'https://cdn.discordapp.com/attachments/1182066478741205082/1204465021669740645/image.png\')">' + '<div class="keybind">' + i + '</div><div class="item-count"></div> <div class="item-name"></div> </div ><div class="item-name-bg"></div></div>');
         }
         $.each(fastItems, function(index, item) {
             count = setCount(item);
